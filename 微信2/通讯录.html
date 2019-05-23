@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #worp{
+            height: 100%;
+            width: 100%;
+        }
+        .iconfont{
+            font-size: 20px;
+        }
+        .top{
+            height: 100%;
+            width: 100%;
+            background-color: gainsboro;
+        }
+        .time{
+            margin-left: 50%;
+            line-height: 50%;
+        }
+        .a3{
+            float: right;
+        }
+        .a{
+            height: 30px;
+            width: 100%;
+            line-height: 30px;
+            font-size: 20px;
+            background-color: gainsboro;
+        }
+        .a1{
+            float: left;
+        }
+        .a2{
+            margin-left: 85%;
+        }
+        ul{
+            /* list-style: none;*/
+            overflow:scroll;
+            height: 550px;
+        }
+        li{
+            height: 60px;
+        }
+        .manage{
+            display: flex;
+            height: 60px;
+            background-color: gainsboro;
+        }
+        .manage div{
+            flex: 1;
+            text-align: center;
+        }
+        .w1{
+            width: 91px;
+        }
+        .c{
+            width: 200px;
+            height: 300px;
+            background-color: #999999;
+            position: absolute;
+            right: 15px;
+            top: 50px;
+            display: none;
+            opacity: 0.9;
+        }
+        #worp .a .a2 a:hover .c{
+            display: block;
+        }
+        #worp .a .a2 a{
+            text-decoration: none;
+            color: black;
+        }
+        .e3{
+            float: left;
+        }
+        .h2{
+            font-size: 40px;
+
+        }
+        .d1{
+           line-height: 50px;
+        }
+        .d3{
+            height: 17px;
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+<div id="worp">
+    <div class="top">
+        <span class="time">23:19</span>
+        <span class="iconfont a3">99%&#xe697;</span><!--电池-->
+        <span class="iconfont a3">&#xe611;</span><!--闹钟-->
+        <span class="iconfont a3">&#xe60a;</span><!--信号-->
+        <span class="iconfont a3">&#xe607;</span><!--WiFi-->
+    </div>
+
+    <div class="a">
+        <span class="a1">通讯录</span>
+        <div class="a2">
+            <span class="iconfont">&#xe62b;</span>
+            <a href=""><span class="iconfont">&#xe68a;<div class="c">
+               <ul>
+
+                 <li >
+                      <span class="iconfont">&#xe600;</span>
+                      <span>发起群聊</span>
+                  </li>
+                 <li >
+                      <span class="iconfont">&#xe61d;</span>
+                      <span>添加朋友</span>
+                  </li>
+                   <li >
+                      <span class="iconfont">&#xe61a;</span>
+                      <span>扫一扫</span>
+                  </li>
+                 <li >
+                      <span class="&#xe602;">&#xe602;</span>
+                      <span>收付款</span>
+                  </li>
+                  <li >
+                      <span class="&#xe7cb;">&#xe7cb;</span>
+                      <span>帮助与反馈</span>
+                  </li>
+               </ul>
+            </div></span></a>
+        </div>
+    </div>
+</div>
+
+
+<ul>
+    <li>
+        <div class="e3" >
+            <span class="iconfont h2">&#xe61d;</span>
+        </div>
+        <div >
+            <span class="d1">新的朋友</span>
+        </div>
+    </li>
+    <li>
+    <div class="e3" style="background: darkgreen;opacity: 0.8;">
+        <span class="iconfont h2" style="color: white">&#xe60f;</span></div>
+    <div >
+        <span class="d1">群聊</span>
+    </div>
+    </li>
+
+    <li>
+        <div class="e3" style="background: blue;opacity: 0.8;"><span class="iconfont h2">&#xe733;</span></div>
+        <div >
+            <span class="d1">标签</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3" style="background: blue;opacity: 0.8;"><span class="iconfont h2">&#xe63f;</span></div>
+        <div >
+            <span class="d1">公众号</span>
+        </div>
+    </li>
+    <li class="d3">A</li>
+    <li>
+        <div class="e3"><img src="img2/1.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">A0000徐老师</span>
+        </div>
+    </li>
+    <li class="d3">B</li>
+    <li>
+        <div class="e3"><img src="img2/2.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">爸</span>
+        </div>
+    </li>
+    <li class="d3">C</li>
+    <li>
+        <div class="e3"><img src="img2/3.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">陈世宝</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><img src="img2/4.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">陈子毅</span>
+        </div>
+    </li>
+    <li class="d3">D</li>
+    <li>
+        <div class="e3"><img src="img2/5.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">大姐</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><img src="img2/6.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">杜仓</span>
+        </div>
+    </li>
+    <li class="d3">E</li>
+    <li>
+        <div class="e3"><img src="img2/7.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">二姐</span>
+        </div>
+    </li>
+    <li class="d3">G</li>
+    <li>
+        <div class="e3"><img src="img2/8.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">高玥</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><img src="img2/9.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">哥</span>
+        </div>
+    </li>
+    <li class="d3">H</li>
+    <li>
+        <div class="e3"><img src="img2/10.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">韩超</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><img src="img2/11.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">韩明博</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><img src="img2/12.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">何飞鹏</span>
+        </div>
+    </li>
+
+    <li class="d3">J</li>
+    <li>
+        <div class="e3"><img src="img2/13.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">舅舅</span>
+        </div>
+    </li>
+    <li class="d3">M</li>
+    <li>
+        <div class="e3"><img src="img2/15.jpg" height="45px"> </div>
+        <div >
+            <span class="d1">妈</span>
+        </div>
+    </li>
+    <li class="d3">W</li>
+    <li>
+        <div class="e3"><img src="img2/16.jpg" height="45px"> </div>
+        <div class="d1">
+            <span >王雪</span>
+        </div>
+    </li>
+    <li> <div class="d1">15位联系人</div></li>
+</ul>
+<div class="manage">
+    <a href="聊天.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe67e;</span><br><span>微信</span></div>
+    </a>
+    <a href="通讯录.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xeb46;</span><br><span>通讯录</span></div>
+    </a>
+    <a href="发现.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe629;</span><br><span>发现</span></div>
+    </a>
+    <a href="我.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe63f;</span><br><span>我</span></div>
+    </a>
+</div>
+</body>
+</html>

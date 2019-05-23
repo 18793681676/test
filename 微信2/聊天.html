@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #worp{
+            height: 100%;
+            width: 100%;
+        }
+
+        .iconfont{
+            font-size: 20px;
+            float: top;
+        }
+        .top{
+            height: 100%;
+            width: 100%;
+           /* border: solid 1px black;*/
+            background-color: gainsboro;
+        }
+        .time{
+            margin-left: 50%;
+            line-height: 50%;
+        }
+       .a3{
+            float: right;
+        }
+        .a{
+            height: 30px;
+            width: 100%;
+           /* border: solid 1px black;*/
+            line-height: 30px;
+            font-size: 20px;
+            background-color: gainsboro;
+        }
+        .a1{
+            float: left;
+        }
+        .a2{
+            margin-left: 85%;
+        }
+        ul{
+           /* list-style: none;*/
+            overflow:scroll;
+            height: 550px;
+        }
+        li{
+            height: 60px;
+            border: solid 1px #6D7F5C;
+        }
+        .b1{
+            height: 60px;
+            width: 60px;
+            float: left;
+            margin-left: 8px;
+        }
+        .b3{
+            float: right;
+           margin-top: -35px;
+        }
+        .manage{
+            display: flex;
+            height: 60px;
+            background-color: gainsboro;
+
+        }
+        .manage div{
+            flex: 1;
+            text-align: center;
+            /*border: solid 1px red;*/
+
+        }
+        .w1{
+            width: 91px;
+        }
+        .c{
+            width: 200px;
+            height: 300px;
+            background-color: #999999;
+            position: absolute;
+            right: 15px;
+            top: 50px;
+            display: none;
+            opacity: 0.9;
+        }
+        #worp .a .a2 a:hover .c{
+            display: block;
+        }
+        #worp .a .a2 a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="worp">
+    <div class="top">
+        <span class="time">23:19</span>
+        <span class="iconfont a3">99%&#xe697;</span><!--电池-->
+        <span class="iconfont a3">&#xe611;</span><!--闹钟-->
+        <span class="iconfont a3">&#xe60a;</span><!--信号-->
+        <span class="iconfont a3">&#xe607;</span><!--WiFi-->
+    </div>
+
+    <div class="a">
+        <span class="a1">微信</span>
+        <div class="a2">
+            <span class="iconfont">&#xe62b;</span>
+            <a href=""><span class="iconfont">&#xe68a;<div class="c">
+               <ul>
+
+                  <li >
+                      <span class="iconfont">&#xe600;</span>
+                      <span>发起群聊</span>
+                  </li>
+                 <li >
+                      <span class="iconfont">&#xe61d;</span>
+                      <span>添加朋友</span>
+                  </li>
+                   <li >
+                      <span class="iconfont">&#xe61a;</span>
+                      <span>扫一扫</span>
+                  </li>
+                 <li >
+                      <span class="&#xe602;">&#xe602;</span>
+                      <span>收付款</span>
+                  </li>
+                  <li >
+                      <span class="&#xe7cb;">&#xe7cb;</span>
+                      <span>帮助与反馈</span>
+                  </li>
+               </ul>
+            </div></span></a>
+
+
+        </div>
+    </div>
+</div>
+    <ul>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/1.jpg" height="60px";></div>
+                <span class="b2" style="font-size: 18px">梁世科 </span > <br>
+               <div style="margin-top: 12px">我马上就回来了</div>
+                <span class="b3">23:09</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/2.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">杜仓 </span > <br>
+                <div style="margin-top: 12px">我们讲到微积分这里了</div>
+                <span class="b3">23:01</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/3.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">二姐 </span > <br>
+                <div style="margin-top: 12px">哦哦</div>
+                <span class="b3">22:33</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/4.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">大姐 </span > <br>
+                <div style="margin-top: 12px">行吧，我知道了</div>
+                <span class="b3">20:26</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/5.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">张建华 </span > <br>
+                <div style="margin-top: 12px">我暑假也不回去了</div>
+                <span class="b3">19:40</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/6.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">韩明博 </span > <br>
+                <div style="margin-top: 12px">我十二月份入伍</div>
+                <span class="b3">15:18</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/7.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">张亚伟 </span > <br>
+                <div style="margin-top: 12px">[转账]朋友已确认收款</div>
+                <span class="b3">昨天</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/8.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">王雪 </span > <br>
+                <div style="margin-top: 12px">到时候再说吧</div>
+                <span class="b3">昨天</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/9.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">史春燕 </span > <br>
+                <div style="margin-top: 12px">帮忙点下关注</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/10.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">哥 </span > <br>
+                <div style="margin-top: 12px">你给妈打电话了木有啊</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/11.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">赵嘉乐 </span > <br>
+                <div style="margin-top: 12px;font-size: 13px">你领取了朋友的红包</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/12.jpg" height="60px";></div>
+                <span class="b2" style="font-size: 18px">张照纯 </span > <br>
+                <div style="margin-top: 12px;font-size: 13px">你领取了朋友的红包</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/13.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">爸 </span > <br>
+                <div style="margin-top: 12px;font-size: 13px">[ 转账] 你已确认收款</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/15.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">妈 </span > <br>
+                <div style="margin-top: 12px;font-size: 13px">[视屏通话]</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/16.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">郑兴岩 </span > <br>
+                <div style="margin-top: 12px;font-size: 13px">你领取了朋友的红包</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+        <li>
+            <div class="b">
+                <div class="b1"><img src="img/17.jpg" height="45px";></div>
+                <span class="b2" style="font-size: 18px">韩超 </span > <br>
+                <div style="margin-top: 12px;font-size: 13px">[图片]</div>
+                <span class="b3">5月19日</span>
+            </div>
+        </li>
+    </ul>
+<div class="manage">
+    <a href="聊天.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe67e;</span><br><span>微信</span></div>
+    </a>
+    <a href="通讯录.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xeb46;</span><br><span>通讯录</span></div>
+    </a>
+    <a href="发现.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe629;</span><br><span>发现</span></div>
+    </a>
+    <a href="我.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe63f;</span><br><span>我</span></div>
+    </a>
+</div>
+</body>
+</html>

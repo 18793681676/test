@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #worp{
+            height: 100%;
+            width: 100%;
+        }
+
+        .iconfont{
+            font-size: 20px;
+            float: top;
+        }
+        .top{
+            height: 100%;
+            width: 100%;
+           /* border: solid 1px black;*/
+            background-color: gainsboro;
+        }
+        .time{
+            margin-left: 50%;
+            line-height: 50%;
+        }
+        .a3{
+            float: right;
+        }
+        .a{
+            height: 30px;
+            width: 100%;
+            /*border: solid 1px black;*/
+            line-height: 30px;
+            font-size: 20px;
+            background-color: gainsboro;
+        }
+        .a1{
+            float: left;
+        }
+        .a2{
+            margin-left: 85%;
+        }
+        ul{
+            /* list-style: none;*/
+            overflow:scroll;
+            height: 550px;
+        }
+        li{
+            height: 45px;
+           /* border: solid 1px black;*/
+        }
+
+        .manage{
+            display: flex;
+            height: 60px;
+            background-color: gainsboro ;
+
+        }
+        .manage div{
+            flex: 1;
+            text-align: center;
+            /*border: solid 1px red;*/
+        }
+        .w1{
+            width: 91px;
+        }
+        .c{
+            width: 200px;
+            height: 300px;
+            background-color: #999999;
+            position: absolute;
+            right: 15px;
+            top: 50px;
+            display: none;
+            opacity: 0.9;
+        }
+        #worp .a .a2 a:hover .c{
+            display: block;
+        }
+        #worp .a .a2 a{
+            text-decoration: none;
+            color: black;
+        }
+        .e3{
+            float: left;
+            width: 60px;
+            height: 100%;
+        }
+        .f1{
+            height: 10px;
+           /* border-bottom: solid 1px black;*/
+            background-color: gainsboro;
+        }
+        .h1{
+            font-size: 30px;
+            line-height: 150%;
+        }
+        .d1{
+            height: 45px;
+            width: 270px;
+            /*float: left;*/
+            font-size: 15px;
+            line-height: 43px;
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+<div id="worp">
+    <div class="top">
+        <span class="time">23:19</span>
+        <span class="iconfont a3">99%&#xe697;</span><!--电池-->
+        <span class="iconfont a3">&#xe611;</span><!--闹钟-->
+        <span class="iconfont a3">&#xe60a;</span><!--信号-->
+        <span class="iconfont a3">&#xe607;</span><!--WiFi-->
+    </div>
+
+    <div class="a">
+        <span class="a1">发现</span>
+        <div class="a2">
+            <span class="iconfont">&#xe62b;</span>
+            <a href=""><span class="iconfont" >&#xe68a;<div class="c">
+               <ul>
+<li >
+                      <span class="iconfont">&#xe600;</span>
+                      <span>发起群聊</span>
+                  </li>
+                 <li >
+                      <span class="iconfont">&#xe61d;</span>
+                      <span>添加朋友</span>
+                  </li>
+                   <li >
+                      <span class="iconfont">&#xe61a;</span>
+                      <span>扫一扫</span>
+                  </li>
+                 <li >
+                      <span class="&#xe602;">&#xe602;</span>
+                      <span>收付款</span>
+                  </li>
+                  <li >
+                      <span class="&#xe7cb;">&#xe7cb;</span>
+                      <span>帮助与反馈</span>
+                  </li>
+               </ul>
+            </div></span></a>
+
+
+        </div>
+    </div>
+</div>
+<ul>
+    <li >
+        <div class="e3"><span class="iconfont h1"style="color: #BA57C5">&#xe60b;</span> </div>
+        <div >
+            <a href="朋友圈.html" style="text-decoration: none"> <span class="d1">朋友圈</span></a>
+
+
+        </div>
+    </li>
+    <li class="f1"></li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color: #2690B5">&#xe68d;</span> </div>
+        <div >
+            <span class="d1">扫一扫</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color: #2690B5">&#xe621;</span></div>
+        <div >
+            <span class="d1">摇一摇</span>
+        </div>
+    </li>
+    <li class="f1"></li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color: #FFF02A">&#xe67e;</span></div>
+        <div >
+            <span class="d1">看一看</span>
+        </div>
+    </li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color:#FF9209">&#xeb49;</span></div>
+        <div >
+            <span class="d1">搜一搜</span>
+        </div>
+    </li>
+    <li class="f1"></li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color: #2690B5">&#xe60f;</span></div>
+        <div >
+            <span class="d1">附近的人</span>
+
+        </div>
+    </li>
+    <li class="f1"></li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color:#FF9209">&#xe601;</span></div>
+        <div >
+            <span class="d1">购物</span>
+
+        </div>
+    </li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color:#97FFA1">&#xe603;</span></div>
+        <div >
+            <span class="d1">游戏</span>
+        </div>
+    </li>
+    <li class="f1"></li>
+    <li>
+        <div class="e3"><span class="iconfont h1" style="color:#4640FF">&#xe613;</span></div>
+        <div >
+            <span class="d1">小程序</span>
+
+        </div>
+    </li>
+
+</ul>
+<div class="manage">
+    <a href="聊天.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe67e;</span><br><span>微信</span></div>
+    </a>
+    <a href="通讯录.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xeb46;</span><br><span>通讯录</span></div>
+    </a>
+    <a href="发现.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe629;</span><br><span>发现</span></div>
+    </a>
+    <a href="我.html" style="text-decoration: none">
+        <div class="w1"><span class="iconfont">&#xe63f;</span><br><span>我</span></div>
+    </a>
+</div>
+</body>
+</html>
